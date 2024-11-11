@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['caries']
+
+roboflow:
+  workspace: gilang-pappa-tanto-pambua
+  project: oral-diseases-5ctay
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gilang-pappa-tanto-pambua/oral-diseases-5ctay/dataset/2
